@@ -1,0 +1,32 @@
+.Page {
+  &-about {
+    padding: 2em;
+    ul {
+      list-style: circle;
+      margin-bottom: 1rem;
+    }
+  }
+  .world-map {
+    width: "100%";
+    max-width: 980px;
+    margin: 0 auto;
+    h1 {
+      text-align: center;
+      margin: 5px 0 5px 0;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 10px 0 10px 0;
+    }
+    .user_list {
+      max-height: 600px;
+      overflow-y: scroll;
+      width: 380px;
+    }
+    circle {
+      cursor: pointer;
+    }
+  }
+  
+}

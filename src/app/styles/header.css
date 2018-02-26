@@ -1,0 +1,15 @@
+.Header {
+  background-color: #9b59b6;
+  display: flex;
+  &:hover {
+    background-color: #8e44ad;
+    a {
+        text-decoration: none;
+    }
+  }
+  a {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff;
+  }
+}
